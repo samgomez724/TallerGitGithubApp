@@ -65,8 +65,9 @@ fun PalatalCheck() {
             fontWeight = FontWeight.Bold)
         Text(
             text = "Estudiante de Ingeniería",
+            fontSize = 20.sp,
             color = Color.Gray)
-        HorizontalDivider(thickness = 3.dp)
+        HorizontalDivider(thickness = 4.dp)
         Spacer(Modifier.height(12.dp))
 
         Text(
@@ -80,10 +81,20 @@ fun PalatalCheck() {
             )
         Spacer(Modifier.height(12.dp))
         Text(
-            text = "Ciudad: Bucaramanga",
+            text = "Ciudad: La Ciudad de Bucaramanga",
             fontSize = 25.sp
             )
         Spacer(Modifier.height(16.dp))
+        HorizontalDivider(thickness = 4.dp)
+        Spacer(Modifier.height(16.dp))
+        Text(
+            text = "Descripcion:",
+            fontSize = 25.sp
+        )
+        Text(
+                text = "Persona amable, responsable y sociable, con actitud positiva, facilidad para adaptarse y disposición para aprender y trabajar en equipo.",
+        fontSize = 25.sp
+        )
         Column(
             modifier = Modifier
                 .padding(all = 50.dp),

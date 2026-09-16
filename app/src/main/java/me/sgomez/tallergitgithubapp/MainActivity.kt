@@ -92,7 +92,7 @@ fun PalatalCheck() {
             fontSize = 25.sp
         )
         Text(
-                text = "Persona amable, responsable y sociable, con actitud positiva, facilidad para adaptarse y disposición para aprender y trabajar en equipo.",
+                text = "Multimedia es mi materia favorita porque combina creatividad, tecnología y diseño para crear contenidos digitales interesantes y dinámicos.",
         fontSize = 25.sp
         )
         Column(
